@@ -5,4 +5,5 @@ class ColorFilter:
         return np.invert(tab)
 
     def to_green(self, tab):
+        return tab.zeros(tab.shape)
 
